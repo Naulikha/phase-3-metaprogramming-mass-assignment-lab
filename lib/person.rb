@@ -1,3 +1,4 @@
+require "pry"
 class Person
   # your code here
   def initialize(attributes)
@@ -7,3 +8,4 @@ class Person
     end
   end 
 end
+binding.pry
